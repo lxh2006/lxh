@@ -1,10 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  allowedDevOrigins: [
-    '119.91.22.7',
-    'localhost',
-    '127.0.0.1'
-  ],
   async rewrites() {
     return [
       {
@@ -15,4 +10,4 @@ const nextConfig = {
   }
 };
 
-export default nextConfig;
+module.exports = nextConfig;
